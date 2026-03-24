@@ -1,0 +1,84 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', Libre Baskerville, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DCD0FF; /* fondo blanco suave */
+    color: #FFD1DC;
+    line-height: 1.7;
+}
+
+/* Encabezado */
+header {
+    background-color: #AAF0D1; /* azul pastel */
+    color: #A2CFFE;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #7aa7d9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    color: #7aa7d9;
+    margin-top: 0;
+    border-bottom: 2px solid #a3c9f9;
+    padding-bottom: 0.5rem;
+}
+
+/* Listas */
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+/* Footer */
+footer {
+    background-color: #7aa7d9;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+.galeria img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 250px;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
